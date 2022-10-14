@@ -9,6 +9,15 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Tshirt lena hai'),
       ),
+      
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        // isExtended: true,
+        child: Icon(Icons.add),
+        backgroundColor: Colors.green,
+        onPressed: () {
+        },
+      ),
     );
   }
 }
