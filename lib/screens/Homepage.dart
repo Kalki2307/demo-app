@@ -8,7 +8,11 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Tshirt lena hai'),
-      ),
-    );
-  }
-}
+      ), 
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        backgroundColor: Colors.green,
+        onPressed: () {
+        }
+       ),);}}
